@@ -1,8 +1,8 @@
 {
-  "name": "scrabble-lite",
+  "name": "webpack-lighthouse-template",
   "version": "1.0.0",
   "author": "Ethan Soo Hon",
-  "description": "Vanilla JS and CSS scrabble Game validated with a huge list of english words",
+  "description": "Simple webpack 4 template for optimizing the performance of static sites in production",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist/*",
@@ -14,18 +14,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethanny2/codePenScrabbleChallenge"
+    "url": "https://github.com/ethanny2/webpack-lighthouse100-template"
   },
   "keywords": [
-    "Vanilla JS",
-    "Scrabble",
-    "Binary Search"
+    "webpack",
+    "template",
+    "lighthouse 100",
+    "perfect score"
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ethanny2/codePenScrabbleChallenge/issues"
+    "url": "https://github.com/ethanny2/webpack-lighthouse100-template/issues"
   },
-  "homepage": "https://github.com/ethanny2/codePenScrabbleChallenge",
+  "homepage": "https://github.com/ethanny2/webpack-lighthouse100-template",
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
