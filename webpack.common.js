@@ -107,6 +107,7 @@ module.exports = {
     new ScriptExtHtmlWebpackPlugin({
       defaultAttribute: "defer"
     }),
+    //Copy the entire directory of netlify functions to build folder
     new CopyPlugin([
       {
         from: path.resolve(__dirname, "./functions"),

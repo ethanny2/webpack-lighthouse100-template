@@ -82,7 +82,8 @@ module.exports = merge(common, {
     contentBase: path.join(__dirname, "src/static"),
     compress: true,
     hot: true,
-    port: 9000
+    port: 9000,
+    watchContentBase: true
   },
   plugins: [
     new MiniCssExtractPlugin({
