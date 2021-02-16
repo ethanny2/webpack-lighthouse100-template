@@ -13,15 +13,30 @@ html {
 *:after {
 	box-sizing: inherit;
 }
-
+main,
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+main {
+	padding: 2rem;
+}
 #intro {
+	width: 100%;
+	height: 100%;
 	text-align: center;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 5rem;
-	 p {
-		margin:0;
+	font-size: 4rem;
+	div {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	p {
+		margin: 0;
+	}
+	span {
+		font-size: 1.5rem;
 	}
 }
