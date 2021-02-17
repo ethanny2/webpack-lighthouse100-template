@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Word Scramble!</title>
+    <meta
+      name="description"
+      content="Single player javascript word matching game inspired by scrabble!"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=News+Cycle:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta itemprop="name" content="Word Scramble" />
+    <meta
+      itemprop="description"
+      content="Single player javascript word matching game inspired by scrabble!"
+    />
+    <!-- change image link-->
+    <meta itemprop="image" content="https://imgur.com/I06HlyX" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://word-scramble.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Word Scramble" />
+    <meta
+      property="og:description"
+      content="Single player javascript word matching game inspired by scrabble!"
+    />
+    <meta property="og:image" content="https://imgur.com/I06HlyX" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Word Scramble" />
+    <meta
+      name="twitter:description"
+      content="Single player javascript word matching game inspired by scrabble!"
+    />
+    <meta name="twitter:image" content="https://imgur.com/I06HlyX" />
+  </head>
+  <body>
+    <div class="loading">
+      <div class="loading-content">
+        <div class="lds-ring">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <h2 class="loading-title">Loading...</h2>
+        <ul class="loading-instructions">
+          <li>Click or tap to place/remove tiles</li>
+          <li>Repeated words are not counted</li>
+          <li>
+            Desktop users can press ENTER to submit
+          </li>
+          <li>Mobile users can double tap anywhere to submit</li>
+        </ul>
+      </div>
+    </div>
+    <section id="content">
+      <h2 id="score-animation"></h2>
+      <header>
+        <h1 id="timer"><span id="timer-num">0 </span>Seconds</h1>
+        <label for="sound"
+          >Sound:
+          <input type="checkbox" name="sound" id="sound" />
+        </label>
+        <h1 id="score">0</h1>
+      </header>
+      <div id="answer-row"></div>
+      <ul id="tile-row"></ul>
+      <footer>
+        <button id="refresh">Refresh</button>
+        <button id="submit">Submit</button>
+      </footer>
+    </section>
+
+    <div class="game-over hide">
+      <h1>Game Over!</h1>
+      <!-- <div class="tile">127</div> -->
+      <div class="game-over-buttons">
+        <button id="reset">Reset</button>
+        <button>
+          <a id="twitter-share" href="#" target="_blank">Share</a>
+        </button>
+      </div>
+      <p class="game-over-score">Score: <span id="final-score">0</span></p>
+      <div class="game-over-social">
+        <a href="https://twitter.com/ArrayLikeObj" target="_blank"
+          ><img src="../images/twitter.png" alt="Twitter logo"
+        /></a>
+        <a
+          href="https://github.com/ethanny2/codePenScrabbleChallenge"
+          target="_blank"
+          ><img src="../images/github.png" alt="Github logo"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
