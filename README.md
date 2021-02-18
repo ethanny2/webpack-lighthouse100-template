@@ -2,11 +2,11 @@
 # Webpack Lighthouse 100 Template
 
 
-<div style="text-align:center">
+<p align="center">
 
-![Live Template example](https://media4.giphy.com/media/AZQvjAAkSmkYCkNaJM/giphy.gif)
+<img src="https://media4.giphy.com/media/AZQvjAAkSmkYCkNaJM/giphy.gif" alt="Gif of lighthouse perfect 100 fireworks" />
 
-</div>
+</p>
 
 ##[Try it your self!](https://static-lighthouse100.netlify.app/)
  A template that utilizes the webpack (4) bundler along with its robust plugin environment to make a template that is optimized for best practices in a production environment.
