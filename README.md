@@ -9,7 +9,7 @@
 
 </p>
 
-##[Try it your self!](https://static-lighthouse100.netlify.app/)
+## [https://static-lighthouse100.netlify.app/](https://static-lighthouse100.netlify.app/)
  A template that utilizes the webpack (4) bundler along with its robust plugin environment to make a template that is optimized for best practices in a production environment.
 
 ***Note: Most of the rules in the webpack files have breif comments explaining them but if you want a more in-depth explaination of any of the more intracate details please see the README of this [Repo](https://github.com/ethanny2/threejs-es6-webpack-barebones-boilerplate) (Essentially this template uses the same config as the linked repo, the only difference is the other repo just uses Threejs. The explanations for the webpack rules should still apply).**
